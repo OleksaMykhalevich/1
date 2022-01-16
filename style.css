@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+}
+.header{
+    min-height: 75px;
+    font-family: 'Asap', sans-serif;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    
+    
+}
+.headerStructure{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.headermenu{
+    height: 100%;
+}
+.logo{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center
+}
+.menu{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0px;
+    margin: 8px 0px 8px 0px;
+   
+}
+.menu  li {
+    margin: 15px;
+    text-decoration: none;
+    display: block;
+    
+}
+.menu li a{
+    color: #4d4d4d;
+    position: relative;
+	cursor: pointer;
+	line-height: 1; 
+	text-decoration: none; 
+    font-size: 16px;
+}
+.menu li a:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: #4d4d4d; 
+	content: "";
+	transition: width 0.2s ease-out; 
+}
+.menu li a:hover:after,
+.menu li a:focus:after {
+	width: 100%;
+}
+
+.firstPartOfMain{
+    min-height: 750px;
+    width: 100%;
+    background-image: url(img/bg\ element\ .png);
+    background-repeat: none;
+    padding-top: 75px;
+    background-size: 100%;
+    
+}
+.logo p{
+    margin: 0px;
+    font-size: 14.15px;
+}
+.logo img{
+    margin: 20px 0px 5px 0px;
+}
+.homeContent{
+    width: 100%;
+}
+.homeContent{
+  display: flex;
+}
+.firstPartImg{
+    max-width: 571px;
+}
