@@ -1,7 +1,8 @@
-body{
+body {
     margin: 0px;
 }
-.header{
+
+.header {
     min-height: 75px;
     font-family: 'Asap', sans-serif;
     background-color: transparent;
@@ -10,27 +11,31 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding: 8px;
-    
-    
+
+
 }
-.headerStructure{
+
+.headerStructure {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.headermenu{
+
+.headermenu {
     height: 100%;
 }
-.logo{
+
+.logo {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center
 }
-.menu{
+
+.menu {
     display: flex;
     align-content: center;
     flex-direction: row;
@@ -38,59 +43,288 @@ body{
     justify-content: center;
     margin: 0px;
     margin: 8px 0px 8px 0px;
-   
+
 }
-.menu  li {
+
+.menu li {
     margin: 15px;
     text-decoration: none;
     display: block;
-    
-}
-.menu li a{
-    color: #4d4d4d;
-    position: relative;
-	cursor: pointer;
-	line-height: 1; 
-	text-decoration: none; 
-    font-size: 16px;
-}
-.menu li a:after {
-	display: block;
-	position: absolute;
-	left: 0; 
-	width: 0;
-	height: 2px; 
-	background-color: #4d4d4d; 
-	content: "";
-	transition: width 0.2s ease-out; 
-}
-.menu li a:hover:after,
-.menu li a:focus:after {
-	width: 100%;
+
 }
 
-.firstPartOfMain{
-    min-height: 750px;
+.menu li a {
+    color: #4d4d4d;
+    position: relative;
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu li a:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #4d4d4d;
+    content: "";
+    transition: width 0.2s ease-out;
+}
+
+.menu li a:hover:after,
+.menu li a:focus:after {
+    width: 100%;
+}
+
+.firstPartOfMain {
+    min-height: 700px;
     width: 100%;
     background-image: url(img/bg\ element\ .png);
     background-repeat: none;
     padding-top: 75px;
     background-size: 100%;
-    
+
 }
-.logo p{
+
+.logo p {
     margin: 0px;
     font-size: 14.15px;
 }
-.logo img{
+
+.logo img {
     margin: 20px 0px 5px 0px;
 }
-.homeContent{
+
+.homeContent {
+    width: 100%;
+    min-height: 690pxS;
+}
+
+.firstPartImg {
+    max-width: 571px;
+}
+
+.firstPartTextContent {
+    background-image: url(img/img\ face.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 690px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+
+}
+
+.FPTitle {
+    font-size: 90px;
+    margin: 0px;
+    color: #4d4d4d;
+    width: 100%;
+    margin-top: 150px;
+    font-family: 'Asap', sans-serif;
+}
+
+.firstPartText {
+    font-size: 22px;
+    margin: 0px;
+    margin-bottom: 30px;
+    color: #9b9b9b;
+    width: 100%;
+    font-family: 'Asap', sans-serif;
+}
+
+.firstPartButtons {
+    width: 160px;
+    height: 50px;
+    background: transparent;
+    color: #4d4d4d;
+    border: unset;
+    background-color: white;
+    margin-right: 15px;
+}
+
+.firstPartButtons a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: 16px;
+    font-family: 'Asap', sans-serif;
+}
+
+.firstPartButtons:hover {
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.secondPartOfMain {
+    width: 100%;
+    min-height: 677px;
+}
+
+.aboutContent {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 0px 0px 0px;
+}
+
+.aboutImg img{
     width: 100%;
 }
-.homeContent{
-  display: flex;
+
+
+.SPTitile {
+    font-family: 'Asap', sans-serif;
+    font-size: 46px;
+    color: #7c7c7c;
+    margin: 0px;
 }
-.firstPartImg{
-    max-width: 571px;
+
+.secondPartText {
+    font-size: 16px;
+    font-family: 'Asap', sans-serif;
+}
+
+.secondPart {
+    width: 40px;
+    height: 4px;
+    background-color: #7a7a7a;
+}
+
+.secondPartButton {
+    width: 160px;
+    height: 50px;
+    background: transparent;
+    color: #4d4d4d;
+    border: unset;
+    background-color: white;
+    margin-right: 15px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.secondPartButton a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: 16px;
+    font-family: 'Asap', sans-serif;
+}
+
+.secondPartButton:hover {
+    background-color: #c2bdbc;
+    border: 2px solid #4d4d4d;
+}
+
+.secondPartButton:hover .secondPartButton a {
+    color: white;
+}
+
+.thirdPartOfMain {
+    min-height: 600px;
+    padding: 90px 0px 0px 0px;
+    background-image: url(img/SERVICE\ BG.png);
+}
+
+.servicesTitle {
+    font-size: 46px;
+    font-family: 'Asap', sans-serif;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.servicesTitle p {
+    margin: 0px;
+}
+
+.servicesContent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.servicesContentElments {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.servicesContentElments p {
+    font-family: 'Asap', sans-serif;
+}
+
+.fourthPartOfMain {
+    width: 100%;
+    min-height: 677px;
+    padding: 90px 0px 0px 0px;
+    background-image: url(img/skill\ bg.png);
+}
+
+.myskillsSchedule {
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    width: 90%;
+    
+}
+
+.myskillsSchedule img {
+    position: absolute;
+}
+
+.wave {
+    z-index: 1;
+    width: 90%;
+    padding-left: 7%;  
+    padding-top: 18px;
+}
+
+
+
+.scheduleBG {
+    width: 90%;
+    padding-left: 10%;
+    top: -10px;
+    padding-top: 20px;
+}
+
+.sheduleProcents{
+    display: flex;
+    flex-direction: column;
+        margin-top: 100px;
+}
+.sheduleProcents p{
+    margin: 0px 10px 30px 10px;
+    font-family: 'Asap', sans-serif;    
+
+}
+.skillsPosition{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.myskillIcons{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    margin-left: 180px;
+    margin-right: 150px;
+    
+}
+.myskillIcons div{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.myskillIcons div img:last-child{
+    margin-right:35px ;
 }
