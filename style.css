@@ -274,6 +274,7 @@ body {
     display: flex;
     width: 90%;
     
+    
 }
 
 .myskillsSchedule img {
@@ -317,6 +318,7 @@ body {
     display: flex;
     margin-left: 180px;
     margin-right: 150px;
+    justify-content: center
     
 }
 .myskillIcons div{
@@ -327,4 +329,84 @@ body {
 }
 .myskillIcons div img:last-child{
     margin-right:35px ;
+}
+@media (max-width:850px) {
+    .sheduleProcents{
+        display: none;
+    }
+}
+@media (max-width:992px) {
+    .myskillIcons{
+        margin-top: 0px;
+    }
+    .myskillsSchedule {
+        
+        min-height: 260px;
+        
+    }
+}
+@media (max-width:568px) {
+    .myskillIcons{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .myskillsSchedule {
+        
+        min-height: 170px;
+
+    }
+}
+.fifthPartMain{
+    min-height: 1095px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.portfolioContent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolioPosition{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.portfolioContent div img{
+    margin: 0px 10px 0px 10px;
+}
+.portfolioContent{
+    margin-top:100px ;
+}
+.porfolioTitle{
+    margin-top: 100px;
+}
+.portfolioButton{
+    margin-top: 40px;
+}
+.portfolioButton button {
+    width: 160px;
+    height: 50px;
+    background: transparent;
+    color: #4d4d4d;
+    border: unset;
+    background-color: white;
+    text-align: center;
+}
+
+.portfolioButton  a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: 16px;
+    font-family: 'Asap', sans-serif;
+}
+
+.portfolioButton:hover {
+    background-color: transparent;
+    border: 2px solid black;
+}
+.portfolioContent div{
+margin: 20px 0px 20px 0px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
