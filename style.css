@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 0px;
 }
@@ -10,7 +13,7 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 8px;
+    padding-top: 8px;
 
 
 }
@@ -126,6 +129,9 @@ body {
     margin-top: 150px;
     font-family: 'Asap', sans-serif;
 }
+.FPTitle p{
+    width: 100%;
+}
 
 .firstPartText {
     font-size: 22px;
@@ -170,7 +176,7 @@ body {
     padding: 100px 0px 0px 0px;
 }
 
-.aboutImg img{
+.aboutContent img{
     width: 100%;
 }
 
@@ -224,7 +230,7 @@ body {
 .thirdPartOfMain {
     min-height: 600px;
     padding: 90px 0px 0px 0px;
-    background-image: url(img/SERVICE\ BG.png);
+    background-color: #f5f5f5;
 }
 
 .servicesTitle {
@@ -344,6 +350,16 @@ body {
         min-height: 260px;
         
     }
+    .menu{
+        overflow: hidden;
+        overflow: scroll;
+    }
+    .carouselText{
+        
+        max-height: 100px;
+        overflow: hidden;
+        overflow: scroll;
+    }
 }
 @media (max-width:568px) {
     .myskillIcons{
@@ -354,6 +370,13 @@ body {
         
         min-height: 170px;
 
+    }
+    .owl-carousel {
+        height: 100%;
+        margin: 85px 0px 0px 10px;
+    }
+    .FPTitle{
+    font-size: 65px;
     }
 }
 .fifthPartMain{
@@ -409,4 +432,75 @@ margin: 20px 0px 20px 0px;
 display: flex;
 align-items: center;
 justify-content: center;
+}
+.sixthPartOfMain{
+    min-height: 732px;
+    padding: 126px 0px 154px 0px;
+}
+
+.testimoSlider{
+    margin: 100px 0px 0px 0px;
+    width: 950;
+    min-height: 350px;
+    height: 350px;
+    border: black 3px solid;
+}
+.owl-carousel{
+    height: 100%;
+    
+}
+@media (min-width:555px) {
+    .owl-carousel{
+        
+        margin: 85px;
+    }
+}
+.carouselImg img{
+    height: 100%;
+    width: 100%;
+    min-width: 100px;
+}
+.carouselImg{
+    height: 170px;
+    width: 170px;
+}
+.carouselPosition{
+    display: flex;
+}
+.carouselContent{
+    max-width: 600px;
+    font-family: 'Asap', sans-serif;
+    margin: 0px 100px 0px 50px;
+   
+}
+.owl-dots{
+  display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.owl-dot{
+    
+    background-color: white;
+    border: black 2px solid;
+    margin: 0px 5px 0px 5px;
+    
+}
+.owl-dot:hover{
+    background-color: black;
+}
+.carouselTitle{
+    font-size: 30px;
+    margin: 0px;
+   
+}
+.carouselTitle p{
+    margin: 0px;
+}
+.carouselText{
+    color: #828282;
+    font-size: 16px;
+   
 }
